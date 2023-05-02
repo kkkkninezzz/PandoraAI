@@ -6,7 +6,7 @@ COPY . .
 
 #COPY .env .
 
-RUN npm install
+RUN yarn install && npm install && pnpm install
 
 EXPOSE 3000 24678
 
